@@ -57,6 +57,10 @@ $ echo 'CkEKCeOCj+OBn+OBlxDSCSIQWmQ730+N8z8tsp3vp8YJQCoSCAESBzA4MDAwMDAaBQ26sSZE
 }
 ```
 
+## Windows
+
+Windows users can run the binaries in a linux-on-windows tool (like Git bash or WSL) or use the official [protobuf binaries](https://github.com/protocolbuffers/protobuf/releases) to encode/decode protobuf data.
+
 ## Contributing
 
 1. Fork it (<https://github.com/omarroth/protodec/fork>)
