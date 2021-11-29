@@ -5,7 +5,7 @@ Command-line tool to encode and decode arbitrary protobuf data.
 
 ## Installation
 
-This pragram requires Crystal. See: https://crystal-lang.org/install/
+This program requires Crystal. See: https://crystal-lang.org/install/
 
 ### Standalone
 
