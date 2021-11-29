@@ -2,6 +2,30 @@
 
 Command-line tool to encode and decode arbitrary protobuf data.
 
+
+## Installation
+
+This pragram requires Crystal. See: https://crystal-lang.org/install/
+
+### Standalone
+
+1. Clone: `git clone https://github.com/iv-org/protodec && cd protodec`
+2. Build: `crystal build src/protodec.cr`
+3. See [Usage](#Usage) below
+
+
+### As a Crystal library
+
+Add this to your application's `shard.yml`:
+
+```yaml
+dependencies:
+  protodec:
+    github: iv-org/protodec
+    version: ~> 0.1.4
+```
+
+
 ## Usage
 
 ```
@@ -63,7 +87,7 @@ Windows users can run the binaries in a linux-on-windows tool (like Git bash or 
 
 ## Contributing
 
-1. Fork it (<https://github.com/omarroth/protodec/fork>)
+1. Fork it (<https://github.com/iv-org/protodec/fork>)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
