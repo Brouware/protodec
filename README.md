@@ -22,7 +22,7 @@ Add this to your application's `shard.yml`:
 dependencies:
   protodec:
     github: iv-org/protodec
-    version: ~> 0.1.4
+    version: ~> 0.1.5
 ```
 
 
