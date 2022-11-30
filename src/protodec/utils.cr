@@ -468,9 +468,7 @@ module Protodec
       Any.new(raw.clone)
     end
 
-    def self.cast_json(object)
-      raise "Invalid type" if !object.is_a?(Hash)
-
+    def self.cast_json(object : Hash)
       JSON::Any.new(object.transform_values do |value|
         case value
         when .is_a?(Hash)
